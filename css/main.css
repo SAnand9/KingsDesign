@@ -1,0 +1,149 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    padding-top: 50px;
+    margin: 0;
+}
+section {
+    padding: 50px 0;
+}
+nav {
+    background: rgb(11, 57, 88);
+    height: 60px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+nav > a {
+    color: #ffffff;
+    font-family: 'Indie Flower', cursive;
+    font-size: 26px;
+    font-weight: 700;
+    left: 25px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    top: 10px;
+}
+nav span {
+    font-family: 'Indie Flower', cursive;
+    color: #ee2626;
+    text-align: left;
+}
+nav ul {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+nav li > a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+nav li > a:hover,
+nav li > a:focus {
+    color: #ee2626;
+}
+
+.searchBox {
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform:  translate(-50%, 50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #2f3640;
+}
+
+.searchButton {
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+header {
+    background-attachment: fixed;
+    background-image: url(chess_king.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: 0 50%;
+    color: #fff;
+    height: 500px;
+    padding-top: 15%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #2c394d;
+    margin: 45px 200px 95px 250px;
+}
+
+header span {
+    font-family: 'Indie Flower', cursive;
+    color: #ee2626;
+    text-align: left;
+}
+
+header a {
+    background-color: rgba(41, 56, 121, 0.212);
+    color: #0B1016;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5%;
+    padding: 10px 60px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+header a:hover {
+        background-color: rgba(16, 62, 105, 0.938);
+        color: #0B1016;
+        cursor: pointer;
+}
+
+#sitefooter {
+    background: #000;
+    position: fixed;
+    padding: 10%;
+    width: 100%;
+}
